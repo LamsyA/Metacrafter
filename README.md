@@ -8,11 +8,17 @@ To compile the code, click on the "Solidity Compiler" tab in the left-hand sideb
 Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "myToken" contract from the dropdown menu, and then click on the "Deploy" button.
 
 ```
-Once the contract is deployed, you can interact with it by calling the tokenName, tokenAbrev,balance, totalSupply, Mint and the burn function.
+Once the contract is deployed, 
 
-click on the tokenName to see the Token name (Metatoken)
+Only the deployer of the smart contract can mint token,
 
-click on the tokenAbrev to see the Token symbol(MTK).
+Any user can transter and burn token
+
+you can interact with it by calling the tokenName, tokenAbrev,balance, totalSupply, Mint and the burn function.
+
+click on the tokenName to see the Token name 
+
+click on the tokenAbrev to see the Token symbol.
 
 click on the totalSupply, this is Zero by default
 ```
